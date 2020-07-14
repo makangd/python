@@ -1,0 +1,25 @@
+Bit;Value;Cumulative Sum;Interpretation
+0;1;1;Fill
+1;2;3;Clear
+2;4;7;Water
+3;8;15;Cloud Shadow
+4;16;31;Snow
+5;32;63;Cloud
+6;64;127;"Cloud Confidence
+00= None
+01= Low
+10 = Medium
+11 = High"
+7;128;255;
+8;256;511;"Cirrus Confidence
+00= Not set
+01= Low  from OLI Band 9 Reflectance
+10 = Medium from OLI Band 9 Reflectance
+11 = High from OLI Band 9 Reflectance"
+9;512;1023;
+10;1024;2047;Unused
+11;2048;4095;Unused
+12;4096;8191;Unused
+13;8192;16383;Unused
+14;16384;32767;Unused
+15;32786;65553;Unused
